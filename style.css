@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: linear-gradient(to right, #ffcc00, #ff9900);
+}
+
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 5px solid darkblue;
+    margin: auto;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+
+.red {
+    background-color: red
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.btn {
+    background-color: lightblue;
+    width: 150px;
+    height: 120px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
